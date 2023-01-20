@@ -1,18 +1,17 @@
 body {
-    margin: 0;
+    margin: 0 15px;
+    background-color: black;
 }
 
 .container {
     height: 100vh;
     display: grid;
-    background-color: aqua;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr 3fr 2fr 3fr;
     gap: 5px;
 }
 
 .box {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +29,13 @@ body {
     height: 70px;
 }
 
+.enlaces {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
 .box2 {
     grid-column: 4/6;
     display: flex;
@@ -40,6 +46,14 @@ body {
 .logos {
     width: 30px;
     height: 30px;
+    padding: 5px;
+}
+
+.titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    color: white;
+    font-style: normal;
 }
 
 .imagenes {
@@ -50,6 +64,7 @@ body {
     grid-column: 1/6;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .box15 {
